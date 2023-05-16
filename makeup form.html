@@ -1,0 +1,153 @@
+ 
+ <!DOCTYPE html>
+ <html> 
+ <head>
+ <title> MAKEUP FORM</title>
+ <meta name="viewport" content="width=device-width initial-scale 1.0">
+ <body>
+
+
+
+
+   <!--logo section-->
+ <p style="text-align: center;">
+ <img src="makeuplogo nia.JPG" style="max-width: 60%;" height="auto">  
+ </p>
+
+    <!--Header section-->
+ <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+  Welcome &#128525; fill up this form to Register
+ </p>
+
+    <!-- Signup section-->
+  <form action="/action_page.php" method="get" autocomplete="on">
+  <fieldset>
+ <legend>Hi! &#128075; <br> Please fill in your details: </legend>
+
+ <input type="text" id="firstname" name="firstname" placeholder="Firstname" required style="margin-right: 10px;">
+ <input type="text" id="lastname" name="lastname" placeholder="lastname" required ><br><br>
+ <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+ 
+    Welcome &#128525; Please Fill in details in bold letters      
+  <label for="gender">Gender:</label>
+ <input type="radio" id="male" name="gender" value="male">Male
+ <input type="radio" id="female" name="gender" value="female">Female<br><br>
+ 
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+
+                <label for="state">State of Origin:</label>
+                <select>
+                    <option disabled selected>--Select State--</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="FCT">Federal Capital Territory</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select><br><br>
+
+                What would you like to learn?<br>
+                <input type="checkbox" id="makeup" name="makeup" value="makeup">
+                <label for="makeup"> basic makeup skills</label><br>
+                <input type="checkbox" id="gele" name="gele" value="gele">
+                <label for="gele"> different styles of Gele</label><br>
+                <input type="checkbox" id="hair" name="hair" value="hair">
+                <label for="hair"> hair wrapping</label><br><br>
+
+                
+                
+
+                <label for="favcolor">Select your prefered color:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+
+                <label for="myfile">Upload your documents:</label>
+                <input type="file" id="myfile" name="myfile" multiple><br>
+                <em style="font-size: 10px; color: rgba(78, 146, 14, 0.89);">**Documents needed are: O'Level, Gov't Issued ID &amp; Any other academic qualifications.</em><br><br>
+
+                <input type="url" id="social" name="social" placeholder="facebook prfile link"><br><br>
+
+                <input type="text" id="username" name="username" placeholder="Type Your Username" required style="margin-right: 10px;"><br><br>
+
+               <input type="password" id="password" name="password" placeholder="Type Your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+               <input type="checkbox" onclick="myFunction()">Show Password
+               <br><br>
+
+                <textarea name="message" rows="10" cols="30" placeholder="Tell us why we should consider you for this programme"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Clear Form"><br><br>
+
+                <a href="makeup form.html">Go Back To Home</a> 
+
+            </fieldset>
+            <br>
+
+            <!-- Footer Section -->
+            <footer style="text-align: center;">
+                Developed with &#128151; by <a href="https://www.instagram.com/niasglamup_">Emmanuel Naomi</a>  &copy;<br><br>
+            </footer>
+            
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("password");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                }
+                </script>
+
+            <hr>
+            
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
+
+
+</body>
+ </html>
